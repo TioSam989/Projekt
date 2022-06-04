@@ -1,0 +1,6 @@
+function warning(message){
+    swal("ooh no!", message, "warning");
+}
+function success(){
+    swal("good job!", message, "success");
+}

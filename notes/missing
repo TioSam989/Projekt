@@ -1,0 +1,19 @@
+TURMAS
+    cada turma pode ter no max 20 alunos
+    Na 3º parte do cadastro aparecer selections das turmas disponiveis
+
+    IDEIA
+        $quantidade = mysqli_query($mysqli, "SELECT ALGO FROM login where turma='$TURMA'");
+        $houver = mysqli_fetch_assoc($quantidade);
+        $count = 0;
+
+        while($houver){
+            count++;
+        }
+
+        if($count >=40){
+            echo "Turma disponivel";
+        }else{
+            echo "Turma Indisponivel";
+        }
+

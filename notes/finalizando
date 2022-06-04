@@ -1,0 +1,11 @@
+melhorar o ADM para que ele possa mudar imagens das turmas e adicionar turmas
+    , poder mudar aluno de turma e remover
+
+melhorar ver usuarios para que no hover da imagem do aluno a imagem de 
+    um "display:none" e atras tenha um "view profile" 
+
+usar tail wind pra fazer o index e paginas nao tao importantes (sobre nos, quem somos, privacidade, ...)
+
+adicionar a opção de escolher tema no topo de cada  tela para que possa escolher 
+    entre "dark", "light" e "colored".
+

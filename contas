@@ -1,0 +1,46 @@
+usuarios{
+    username: TioSam190 
+    senha: Dncs2004@
+
+    username: HeHe190 
+    senha: Dncs2004@
+
+    username: Osso123
+    senha: Ana123@123  
+
+    username: dwAFdwAD23!@
+    senha: Dncs2004@
+
+    username: wdadWAD23@
+    senha: Dncs2004@
+
+    username: Conta123
+    senha: Dncs2004@
+
+    username: Username123
+    senha: $2G3uDGnv88
+}
+
+admin{
+    username: admin
+    senha: admin
+
+    username: ADMIN
+    senha: ADMIN
+}
+
+OBS{
+    caso nao esteja conseguindo criar conta por causa 
+    do Pattern, use essa senha como padrao = "Dncs2004@"
+    username tem que conter: 
+        letras maiusculas
+        letras minusculas
+        numeros 
+        
+    Senha tem que conter:  
+        letras maiusculas
+        letras minusculas
+        numeros 
+        digitos especiais dentre esses => @ # $
+        
+}
