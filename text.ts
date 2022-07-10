@@ -1,6 +1,6 @@
 import { ClientFunction, Selector } from "testcafe";
 
-fixture`Getting Started`.page`localhost/Projekt/index.php`; //moden
+fixture`Getting Started`.page`192.168.56.1/Projekt/index.php`; //moden
 // fixture`Getting Started`.page`192.168.43.253/Projekt/index.php`; //celular
 
 function getRandomValue() {

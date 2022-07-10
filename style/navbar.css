@@ -1,0 +1,31 @@
+.ULline {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--bg-div-col);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+.LIelement {
+    float: left;
+    border-bottom:none;
+  }
+
+.LIelementCANTO {
+    float: right;
+
+    
+}   
+  
+  .LIelement a, .LIelementCANTO a {
+    display: block;
+    color: var(--letra-input-on);
+    text-align: center;
+    padding: 16px;
+  }
+  
+  .LIelement a:hover, .LIelementCANTO a:hover {
+    background-color: var(--bg-div-col);
+  }

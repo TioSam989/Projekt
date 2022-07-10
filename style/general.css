@@ -1,0 +1,348 @@
+:root{
+  /* CORES PROGRAMADAS!!! */
+  --bag-col-html:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  --bag-bw-html:rgb(228, 228, 228);
+  
+  --bg-col-div:#333333;
+  --bg-bw-div:white;
+
+  --ltr-col-off: rgb(184, 179, 179);
+  --ltr-bw-off: rgb(73, 70, 70);
+  
+  --ltr-col-on: white;
+  --ltr-bw-on: black;
+
+  --brd-col:#eceffc;
+  --brd-bw:black;
+  /* background */
+  --bg-col-html:var(--bag-col-html);
+  --bg-div-col:var(--bg-col-div);
+
+  /* letras & border */
+  --letra-input-off:var(--ltr-col-off);
+  --letra-input-on:var(--ltr-col-on);
+  --border-bottom-color:var(--brd-col)
+
+  
+}
+
+.msg{
+  background-color: #333333;
+  color:white;
+}
+.titleCard{
+  margin-bottom: 2rem;  
+}
+
+.msg li, .msg small{
+  background-color:transparent;
+  border:none;
+  color:white;
+  margin-top:0.5rem ;
+  width: 100%;
+  margin-right:2rem ;
+}
+
+.msg small{
+  color:orange !important;
+}
+
+/* ul#messages li small {
+  color: yellow !important;
+} */
+
+.square{
+	width: 100%;
+	height: 0; 
+  border-radius: 10px;
+  border-bottom-left-radius:0;border-bottom-right-radius:0;
+	padding-bottom: 40%; 
+	float: left;
+	background-color: black;
+	position: relative;
+}
+
+
+i{
+  padding-right:1rem
+}
+
+.block{
+	position: absolute;
+	text-align: center;
+  border-radius: 10px;
+  border-bottom-left-radius:0;border-bottom-right-radius:0;
+  /* background-image: url('https://a-static.besthdwallpaper.com/linguagem-de-programacao-java-codificacao-papel-de-parede-2560x1600-17042_7.jpg'); */
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+	 
+.block:before {
+	content: '';
+	display: inline-block;
+	height: 100%; 
+	vertical-align: middle;
+  border-radius: 10px;
+  border-bottom-left-radius:0;border-bottom-right-radius:0;
+	margin-right: -0.25em;
+}
+	 
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+	padding: 5% 0%;
+  border-radius: 10px;
+	background: rgba(34, 34, 34, 0.712);
+	color: #FFF;
+	backdrop-filter: blur(8px); 
+
+}
+
+html{
+    /* background: url(link) no-repeat  fixed center; */
+    /* background-color: #eceffc; */
+    background-size: cover;
+    color-scheme:dark;
+    background-position: center;
+    width:100%; 
+    height:100%;
+    background: var(--bg-col-html);
+	  background-size: 800% 800%;
+	  animation: gradient 15s ease infinite;
+    
+}
+
+
+@media(max-width: 1300px){
+  body{
+      font-size: 15px !important;
+   }
+  /*.geralzao{
+    flex-direction: column;
+  }
+  .row{
+    flex-direction: column;
+  } */
+  
+}
+
+@media(max-width: 600px){
+  body{
+      font-size: 6px !important;
+  }
+  .geralzao{
+    flex-direction: column !important;
+  }
+  .row{
+    flex-direction: column !important;
+  }
+  
+}
+
+
+
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin:1rem 5rem ;
+  
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.center{
+    background-color:rgba(0,0,0,0.2);
+    size: 0px;
+    padding: 3px;
+    width:50%; 
+    height:50%;
+    /* opacity: 100; */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+  .numberCircle {
+    font-family: "OpenSans-Semibold", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    line-height: 0px;
+    border-radius: 50%;
+    font-size: 12px;
+    min-width: 38px;
+    min-height: 38px;
+}
+
+.numberCircle span {
+    display: inline-block;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+/* Some Back Ground Colors */
+.clrGreen {
+    background: #51a529;
+}
+.clrRose {
+    background: #e6568b;
+}
+.clrOrange {
+    background: #ec8234;
+}
+.clrBlueciel {
+    background: #21adfc;
+}
+.clrMauve {
+    background: #7b5d99;
+}
+.search{
+  position: relative;
+  animation: example 5s infinite;
+}
+@keyframes example {
+  0%   { -webkit-transform:rotate(-5deg)}
+  50%  { -webkit-transform:rotate(20deg)}
+  100% { -webkit-transform:rotate(-5deg)}
+}
+a {text-decoration: none;}
+.light{
+  color: none;
+  color:#001833 !important;
+  background-color:#FFFFFF;
+}
+.lightHTML{
+  background: none;
+  background-color:#e2dede ;
+}
+
+.day{
+  padding:0.3rem;
+  border-bottom-style: groove;
+  border-color:transparent;
+  background-color:#333333;
+  border-radius:5%;
+  animation-name: dayANI;
+  animation-duration: 0.8s;
+  font-size: small;
+}
+.day:hover{
+  background-color:#444343;
+  transform: scale(1.1);
+}
+.hour{
+  color:none;
+}
+.nameM{
+  text-align: center;
+  margin-left: auto;
+    margin-right: auto ;
+}
+.dia{
+  border-left-style: solid;
+  border-radius: 5%;
+  
+  /*position: absolute;*/
+  /*display:none; NAO TA APARECENDO GRACAS A ELE*/
+}
+.dia:hover{
+  border-left-width: 9px;
+}
+  .vermelho{
+    border-color:rgb(39, 14, 131);
+
+  } 
+  .azul{
+    border-color:rgb(10, 10, 170);
+
+  } 
+  .verde{
+    border-color:rgb(26, 7, 204);
+
+  } 
+  .rosa{
+    border-color:rgb(11, 31, 214);;
+    
+
+  } 
+  .roxo{
+    border-color:rgb(14, 132, 179);
+
+  } 
+.bola {
+  border-radius: 50%;
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  border: 1px solid #000000;
+  background-color: red;
+  align-self: flex-end;
+}
+  .red{
+    background-color:rgb(231, 23, 23);
+
+  } 
+  .green{
+    background-color:rgb(87, 238, 17);
+
+  } 
+  .yellow{
+    background-color:rgb(236, 222, 19);
+
+  } 
+  .pink{
+    background-color:rgb(236, 25, 208);;
+    
+
+  } 
+  .purple{
+    background-color:rgb(141, 9, 141);
+
+  } 
+.legendaCat{
+  justify-content: flex-start !important;
+}
+.cadaLeg{
+  margin-left:3%;
+}
+.sep{
+  border:unset;
+  margin-bottom:1rem; 
+}
+
+
+.BTNenviar{
+  margin-left:2rem;
+  padding: 0.5rem;
+  border:none;
+  border-radius: 0.5rem;
+  font-size:1.1rem;
+  background-color:rgba(255, 255, 255, 0.363);
+  color:white;
+}
+#messages{
+  background-color:rgba(255, 255, 255, 0.623) !important;
+}
+
